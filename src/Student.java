@@ -20,7 +20,7 @@ public class Student {
             System.out.println("Введіть № курсу:   ");
            setCourse(InputAction.inputInteger());
         } else if (number == 3) {
-            System.out.println("Введіть суму стипендії:   ");
+            System.out.println("Введіть суму стипендії бистро:   ");
             setStipend(InputAction.inputDouble());
         } else if (number == 0) {
             return;
